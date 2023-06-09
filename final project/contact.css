@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img1/cbg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    
+    
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+    padding: 50px;
+    margin-top: 40px;
+    
+    
+    
+  }
+
+  .form {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  textarea {
+    height: 100px;
+  }
+  ::placeholder{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8b8989;
+  }
+
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(194, 106, 119);
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #70870a;
+ }
